@@ -41,6 +41,7 @@
 .donation-heading{
     font-size: 45px;
     font-weight: 1000px;
+    font-family: 'Inter', sans-serif;
 }
 .donation-paragraph{
     font-size: 20px;
@@ -48,9 +49,135 @@
     color: rgba(29, 31, 32, 0.966);
     font-weight: lighter;
 }
-.ammount{
+#payment{
+    display: flex;  
+}
+.amount{
+    width: 50px;
+    height: 50px;
+    margin-left: 450px;
+    margin-right: -440px;
+    padding: 30px;
+    background-color: rgba(241, 240, 240, 0.671);
+    text-align: center;
+    color: rgb(94, 94, 94);
+    padding-right: 45px;
+    padding-bottom: 22px;
+    border-radius: 10px;
+}
+.number1{
+    margin-left: 660px;
+    background-color: rgba(163, 112, 112, 0.904);
+    border: 3px solid red;
+}
+#button2{
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 9px;
+    background-image: radial-gradient(rgb(202, 108, 108),rgba(218, 16, 77, 0.932));
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 28px; 
+    margin-top: 50px;
+}
+#other-ammount{
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+}
+.plan-heading{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 400px;
+    font-family: 'Inter', sans-serif;
+}
+#all-plans{
     display: flex;
-    margin-left:740px ;
-    font-size: 25px;
-    width: 20%;
+    gap: 1em;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    height: 350px;
+    padding-bottom: 9em;
+    min-width: 0;
+    padding-top: 9em;
+}
+.food{
+    background-color: rgb(226, 255, 255);
+    border-radius: 10px;
+}
+.shelter{
+    background-color: rgb(243, 232, 253);
+    border-radius: 10px;
+}
+.education{
+    background-color: rgb(255, 248, 236);
+    border-radius: 10px;
+}
+.tree-plantation{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+.tree-plantation-image{
+    padding-right: 30px;
+    height: 300px;
+    width: 650px;
+}
+#button3{
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 9px;
+    background-image: radial-gradient(rgb(185, 243, 177),rgba(46, 233, 77, 0.932));
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 28px; 
+    margin-top:50px;
+}
+.newsletter{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.form{
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(255, 199, 130);
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.email{
+    border: none;
+    background-color: rgb(226, 226, 226);
+height: 60px;
+width: 350px;
+
+border-radius: 30px;
+font-size: 30px;
+text-align: center;
+
+}
+.sub{
+    border: none;
+    background-color: rgb(228, 15, 15);
+    color: white;
+    height: 60px;
+    width: 100px;
+    border-radius: 30px;
+  font-size: 15px;
+  padding-top: 0.8em;
+  text-align: centers;
+   
+}
+.end{font-family: 'Inter', sans-serif;
+    background-color: rgb(138, 255, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: center;
+
 }
