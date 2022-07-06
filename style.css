@@ -1,0 +1,26 @@
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: aliceblue;
+    font-weight: 1000;
+}
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 300px; 
+    text-align: center;
+    color: aliceblue;
+}
+.header-section{
+    background-image: url(/images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: -60px;
+    padding-top: 0px;
+}
