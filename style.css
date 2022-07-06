@@ -1,26 +1,56 @@
 .heading{
-    font-family: 'Inter', sans-serif;
-    font-size: 44px;
-    text-align: center;
+    font-size: 50px;
     margin-bottom: 0px;
-    color: aliceblue;
+    color:burlywood;
     font-weight: 1000;
 }
 .paragraph{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    margin-top: 0px;
-    margin-left: 270px;
-    margin-right: 270px;
-    margin-bottom: 300px; 
-    text-align: center;
-    color: aliceblue;
+   text-align: justify;
+    margin-top: -50px;
+    margin-left: 770px;
+    margin-right: 770px;
+    margin-bottom: 100px;
+    color: whitesmoke;
 }
-.header-section{
+.header-section{ 
+    text-align: center;
+    font-family: 'Inter', sans-serif;
     background-image: url(/images/donation4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    background-color: black;
+    height: 800px;
     margin-top: -60px;
-    padding-top: 0px;
+    margin-bottom: 140px;
+}
+.first-heading-and-paragraph{
+    padding-top: 60px;
+}
+#button1{
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 30px;
+    background-image: radial-gradient(rgb(202, 108, 108),rgba(218, 16, 77, 0.932));
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px; 
+}
+.donation-section{
+    text-align: center;
+}
+.donation-heading{
+    font-size: 45px;
+    font-weight: 1000px;
+}
+.donation-paragraph{
+    font-size: 20px;
+    margin: 10px 500px 20px 500px;
+    color: rgba(29, 31, 32, 0.966);
+    font-weight: lighter;
+}
+.ammount{
+    display: flex;
+    margin-left:740px ;
+    font-size: 25px;
+    width: 20%;
 }
